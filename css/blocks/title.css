@@ -1,0 +1,13 @@
+.title {
+    font-family: "Press Start 2P", "Arial", sans-serif;
+    font-size: 84px;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: center;
+    color: #87F29A;
+    margin: 0;
+}
+
+.title span {
+    color: #FFFFFF;
+}

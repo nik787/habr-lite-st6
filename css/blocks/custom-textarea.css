@@ -1,0 +1,46 @@
+.custom-textarea {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-textarea__field {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 16px 64px 16px 24px;
+    height: 64px;
+    width: 540px;
+}
+
+.custom-textarea__btn {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.custom-textarea__btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-25%, -25%);
+    width: 64px;
+    height: 64px;
+}
+
+.custom-textarea__icon {
+    color: #FFFFFF;
+}

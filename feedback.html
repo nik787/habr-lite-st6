@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Обратная связь - БЕСIT</title>
+  </head>
+  <body>
+    <main>
+      <!-- Обратная связь -->
+       <section class="feedback">
+        <div class="container">
+          <div class="feedback__wrapper">
+            <div class="feedback__inner">
+              <h1 class="feedback__title title">БЕС<span>IT</span></h1>
+              <p class="feedback__subtitle">Поделись болью, вопросом или расскажи миру о&nbsp;том, кто из&nbsp;коллег съел твой йогурт</p>
+              <form class="feedback__form custom-textarea" action="#" method="post">
+                <textarea class="custom-textarea__field" name="user-comment" id="user-comment" placeholder="Твоё сообщение ..." required>Твоё сообщение ...</textarea>
+                <button class="custom-textarea__btn" type="submit" aria-label="Отправить сообщение">
+                  <svg class="custom-textarea__icon" width="24" height="24">
+                    <use xlink:href="images/sprite.svg#icon-send"></use>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+        
+       </section>
+      <section class="comments">
+        <h2 class="visually-hidden">Комментарии пользователей</h2>
+        <div class="container">
+          <ul class="comments__list">
+            <li class="comments__item">
+              <div class="bubble">
+                <p class="bubble__text">Я&nbsp;всю жизнь хотел в&nbsp;IT и&nbsp;у&nbsp;меня получилось. Но&nbsp;теперь я&nbsp;хочу с&nbsp;кем-то об&nbsp;этом поговорить...</p>
+              </div>
+              <img class="comments__img" src="images/mascot-1.png" alt="Стикер" width="170" height="170">
+            </li>
+            <li class="comments__item">
+              <div class="bubble bubble--light-violet">
+                <p class="bubble__text">Для тестировщиков есть отдельный котёл в&nbsp;аду, я&nbsp;проверяла</p>
+                <svg class="bubble__icon" width="32" height="40">
+                  <use xlink:href="images/sprite.svg#callout"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="comments__item">
+              <div class="bubble bubble--green">
+                <p class="bubble__text">Что делать, если я&nbsp;хочу быть котиком, но&nbsp;надо идти и&nbsp;писать код?</p>
+                <svg class="bubble__icon" width="32" height="40">
+                  <use xlink:href="images/sprite.svg#callout"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="comments__item">
+              <div class="bubble bubble--red">
+                <p class="bubble__text">Как&nbsp;же бесит Safari и&nbsp;его бесконечные баги с&nbsp;анимациями</p>
+                <svg class="bubble__icon" width="32" height="40">
+                  <use xlink:href="images/sprite.svg#callout"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="comments__item">
+              <div class="bubble bubble--violet">
+                <p class="bubble__text">У&nbsp;меня так много рабочих созвонов, что может показаться, что я&nbsp;зарабатываю не&nbsp;разработкой, а&nbsp;вебкамом</p>
+              </div>
+              <img class="comments__img comments__img--top-right" src="images/mascot-2.png" alt="Стикер" width="150" height="150">
+            </li>
+            <li class="comments__item">
+              <div class="bubble bubble--light-brown bubble--icon-right">
+                <p class="bubble__text">4&nbsp;часа искать ошибку в&nbsp;коде, а&nbsp;в&nbsp;итоге найти неправильно написанное слово &laquo;heigth&raquo;</p>
+                <svg class="bubble__icon" width="32" height="40">
+                  <use xlink:href="images/sprite.svg#callout"></use>
+                </svg>
+              </div>
+            </li>
+            <li class="comments__item">
+              <div class="bubble bubble--light-green bubble--icon-right">
+                <p class="bubble__text">Бесит когда дизайнеры в&nbsp;10&nbsp;раз правят отступы, после того как я&nbsp;закончил править&nbsp;ПП</p>
+                <svg class="bubble__icon" width="32" height="40">
+                  <use xlink:href="images/sprite.svg#callout"></use>
+                </svg>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Подвал сайта -->
+     <footer class="footer">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__col">
+              <a class="footer__logo" href="index.html" aria-label="Переход на главную страницу">
+                <svg width="120" height="24">
+                  <use xlink:href="images/sprite.svg#icon-title"></use>
+                </svg>
+              </a>
+              <div class="copyright">
+                <svg class="copyright__icon" width="24" height="24">
+                  <use xlink:href="images/sprite.svg#icon-copyright"></use>
+                </svg>
+                <span class="copyright__text">Все права защищены и&nbsp;принадлежат народу</span>
+              </div>
+            </div>
+            <div class="footer__col footer__col--right">
+              <span class="footer__text">Читай подборку по&nbsp;дороге на&nbsp;работу или за&nbsp;чашкой кофе</span>
+              <form class="form-subscribe" action="#" method="post">
+                <div class="form-subscribe__input custom-input">
+                  <input class="custom-input__field" type="email" name="email" id="email" placeholder="Электронная почта" required>
+                  <svg class="custom-input__icon" width="20" height="20">
+                    <use xlink:href="images/sprite.svg#icon-mail"></use>
+                  </svg>
+                    
+                </div>
+                <button class="footer__subscribe-btn btn" type="submit">Подписаться</button>
+              </form>
+            </div>
+          </div>
+        </div>
+     </footer>
+  </body>
+</html>
